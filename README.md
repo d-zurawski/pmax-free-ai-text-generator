@@ -20,11 +20,17 @@ This project provides **a free solution** for generating alternative texts for a
     *   Make a copy of [this template](https://docs.google.com/spreadsheets/d/1Lcef-sKrw0Bz02xDUMnl2Mhe10v9DcYbdqLg7PAyNzI/copy).
     *   Copy the URL of your new sheet.
 
-2.  **Set Up the Google Apps Scripts:**
-    *   Open the script editor in your Google Sheet (Extensions > Apps Script).
-    *   Paste the content of `Google Ads Script - PMax (Free AI) Text Alternative Generator (by Dawid Żurawski).txt` into the editor. Modify the `SPREADSHEET_URL` variable (line 12) to point to your Google Sheet URL.
-    *   Create a new script file and paste the content of `PMax (Free AI) Text Alternative Generator (by Dawid Żurawski).txt` into it.
-    *   In "Script Properties," add the following API keys (note that free usage tiers may have limits):
+2.  **Set Up the Scripts:**
+   *   **The Google Apps Script should be copied automatically with the Google Sheet.**
+      *  If, for some reason, the Apps Script did not copy over, or you are having trouble running it:
+         *   Open the script editor in your Google Sheet (Extensions > Apps Script).
+         *    Create a new script file and paste the content of `Apps Script - PMax (Free AI) Text Alternative Generator (by Dawid Żurawski).js` into it.
+   *   **Set up the Google Ads Script:**
+         *    Open your Google Ads account.
+         *    Navigate to "Scripts" under "Bulk actions".
+         *    Create a new script and paste the content of `Google Ads Script - PMax (Free AI) Text Alternative Generator (by Dawid Żurawski).js` into the editor. Modify the `SPREADSHEET_URL` variable (line 12) to point to your Google Sheet URL.
+
+       In the **Google Apps Script Properties** (File > Script properties) add the following API keys (note that free usage tiers may have limits):
         *   `API_GROQ`: Your Groq API key (free tier available).
         *   `API_GOOGLE`: Your Google AI Studio API key (free tier available).
         *   `API_OPENROUTER`: Your OpenRouter API key (free tier available).
