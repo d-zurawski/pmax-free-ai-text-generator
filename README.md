@@ -1,3 +1,5 @@
+![Demonstracja funkcjonalności projektu](project-gif.gif)
+
 # PMax (Free AI) Text Alternative Generator (by Dawid Żurawski)
 
 This project provides **a free solution** for generating alternative texts for asset groups in Google Ads Performance Max campaigns using AI. It leverages various language models, many of which offer free tiers or usage, to create optimized and creative ad text variations. The aim is to help you improve campaign performance without incurring significant costs for AI processing.
